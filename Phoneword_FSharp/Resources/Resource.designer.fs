@@ -23,10 +23,10 @@ namespace Phoneword_FSharp
     #nowarn "51" // address-of operator can occur in the code
     #nowarn "1183" // unused 'this' reference
     
-    exception ReturnException161f9bd504654dc6b0fca950e622971f of obj
-    exception ReturnNoneException161f9bd504654dc6b0fca950e622971f
+    exception ReturnExceptiond3d4ceeaa153453cb25a38c661ec5eea of obj
+    exception ReturnNoneExceptiond3d4ceeaa153453cb25a38c661ec5eea
     [<AutoOpen>]
-    module FuncConvertFinalOverload161f9bd504654dc6b0fca950e622971f =
+    module FuncConvertFinalOverloadd3d4ceeaa153453cb25a38c661ec5eea =
       // This extension member adds to the FuncConvert type and is the last resort member in the method overloading rules. 
       type global.Microsoft.FSharp.Core.FuncConvert with
           /// A utility function to convert function values from tupled to curried form
@@ -65,8 +65,17 @@ namespace Phoneword_FSharp
         
         (* partial *)Resource_Id () =
             static do Android.Runtime.ResourceIdManager.UpdateIdValues()
+            // aapt resource value: 0x7f050003
+            static member CallButton = 2131034115
+            
+            // aapt resource value: 0x7f050001
+            static member PhoneNumberText = 2131034113
+            
+            // aapt resource value: 0x7f050002
+            static member TranslateButton = 2131034114
+            
             // aapt resource value: 0x7f050000
-            static member myButton = 2131034112
+            static member textView1 = 2131034112
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
 
 

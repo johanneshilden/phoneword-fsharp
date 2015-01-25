@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Resources\Resource.designer.fs" />
     <Compile Include="Properties\AssemblyInfo.fs" />
+    <Compile Include="Translator.fs" />
     <Compile Include="MainActivity.fs" />
   </ItemGroup>
   <ItemGroup>
