@@ -4,4 +4,4 @@ Adaptation of the "Hello, Android Quickstart" project on the Xamarin website, tr
 
 ### Disclaimer
 
-I am not in any way affiliated with Xamarin Inc. This project is not endorsed by or connected with them.
+I am not in any way affiliated with Xamarin Inc and this project is not endorsed by or connected to them.
